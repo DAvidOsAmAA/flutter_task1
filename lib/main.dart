@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/imageSlider.dart';
 import 'package:flutter_application_1/views/Navigationbar/Navigationbar.dart';
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,8 @@ class _HomeState extends State<Home> {
       body: Column(
         children: [
           Expanded(
-            child: Navigationbar(),
+            child: //Navigationbar(),
+            ImageSlider(),
           ),
         ],
       ),
